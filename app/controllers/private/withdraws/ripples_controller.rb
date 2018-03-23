@@ -1,5 +1,5 @@
 module Private::Withdraws
-  class EurosController < ::Private::Withdraws::BaseController
+  class LitecoinsController < ::Private::Withdraws::BaseController
     include ::Withdraws::Withdrawable
   end
 end

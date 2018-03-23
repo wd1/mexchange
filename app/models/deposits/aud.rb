@@ -1,5 +1,5 @@
 module Deposits
-  class Euro < ::Deposit
+  class Aud < ::Deposit
     include ::AasmAbsolutely
     include ::Deposits::Bankable
     include ::FundSourceable

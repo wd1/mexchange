@@ -1,5 +1,5 @@
 module Withdraws
-  class Euro < ::Withdraw
+  class Aud < ::Withdraw
     include ::AasmAbsolutely
     include ::Withdraws::Bankable
     include ::FundSourceable

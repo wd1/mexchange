@@ -6,7 +6,17 @@
   max_confirm: 3
 - id: 400
   key: bank
-  currency: cny
+  currency: usd
+  sort_order: 2
+  bank_accounts:
+    -
+      bank: 'Your Bank Name'
+      branch: 'Your Bank Branch'
+      holder: 'Your Account Holder'
+      account: 'Your Account Number'
+- id: 300
+  key: bank
+  currency: aud
   sort_order: 2
   bank_accounts:
     -
@@ -22,5 +32,15 @@
 - id: 600
   key: litecoin
   currency: ltc
+  min_confirm: 1
+  max_confirm: 6
+- id: 1200
+  key: ripple
+  currency: xrp
+  min_confirm: 1
+  max_confirm: 6
+- id: 2000
+  key: bitcoincash
+  currency: bch
   min_confirm: 1
   max_confirm: 6

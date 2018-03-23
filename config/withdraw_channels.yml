@@ -32,3 +32,17 @@
   fee: 0.0005
   inuse: true
   type: WithdrawChannelLitecoin
+- id: 1200
+  key: ripple 
+  currency: xrp
+  fixed: 12
+  fee: 0.0005
+  inuse: true
+  type: WithdrawChannelRipple
+- id: 2000
+  key: bitcoincash 
+  currency: bch
+  fixed: 12
+  fee: 0.0005
+  inuse: true
+  type: WithdrawChannelBitcoincash
