@@ -1,0 +1,81 @@
+- id: 1
+  key: euro
+  code: eur
+  symbol: "€"
+  coin: false
+  precision: 2
+  assets:
+    accounts:
+      -
+        bank: 'bank'
+        address: '6225 0885 6022 3501'
+        password: '111111'
+        tel: '95555'
+- id: 5
+  key: dollar
+  code: usd
+  symbol: "$"
+  coin: false
+  precision: 2
+  assets:
+    accounts:
+      -
+        bank: 'bank'
+        address: '6225 0885 6022 3501'
+        password: '111111'
+        tel: '95555'
+- id: 6
+  key: pound
+  code: gbp
+  symbol: "£"
+  coin: false
+  precision: 2
+  assets:
+    accounts:
+      -
+        bank: 'bank'
+        address: '6225 0885 6022 3501'
+        password: '111111'
+        tel: '95555'
+- id: 2
+  key: satoshi
+  code: btc
+  symbol: "฿"
+  coin: true
+  quick_withdraw_max: 0
+  rpc: http://PLTexchange:5gKAgrJv8CQr2CGUhjVbBFLSj29HnE6YGXvfykHJzS3k@127.0.0.1:18332
+  blockchain: https://blockchain.info/tx/#{txid}
+  address_url: https://blockchain.info/address/#{address}
+  assets:
+    accounts:
+      -
+        address: 1HjfnJpQmANtuW7yr1ggeDfyfe1kDK7rm3
+- id: 3
+  key: ether
+  code: eth
+  symbol: "Ξ"
+  coin: true
+  precision: 4
+  quick_withdraw_max: 0
+  rpc: http://34.244.216.249
+  blockchain: https://etherscan.io/tx/#{txid}
+  address_url: https://etherscan.io/address/#{address}
+  assets:
+    accounts:
+      -
+        address: 0x4bA2474e063Aec44e23F2Bf7Fb9e4e2878dBaB44
+        #address: 0x8d05771a6523fe59fda4517ac348cdd6f6862c49
+- id: 4
+  key: litecoin
+  code: ltc
+  symbol: "Ł"
+  coin: true
+  precision: 4
+  quick_withdraw_max: 0
+  rpc: http://litecoin:litecoinpassword123@127.0.0.1:9332
+  blockchain: http://ltc.blockr.io/tx/info/#{txid}
+  address_url: http://ltc.blockr.io/address/info/#{address}
+  assets:
+    accounts:
+      -
+        address: LUJFBiG8DEcjRJdgUgGzENKfwMMkxucyuZ

@@ -1,0 +1,16 @@
+development: &defaults
+  adapter: mysql2
+  encoding: utf8
+  database: PLTexchange
+  username: root
+  password: 
+  pool: 10
+  reconnect: true
+
+test:
+  <<: *defaults
+  database: PLTexchange
+
+production:
+  <<: *defaults
+  database: PLTexchange
