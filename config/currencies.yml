@@ -93,7 +93,7 @@
     accounts:
       -
         address: 0x4bA2474e063Aec44e23F2Bf7Fb9e4e2878dBaB44
-id: 7
+- id: 7
   key: ripple
   code: xrp
   symbol: "x"
