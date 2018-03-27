@@ -1,7 +1,7 @@
 development: &defaults
   adapter: mysql2
   encoding: utf8
-  database: PLTexchange
+  database: mexchange_development
   username: root
   password: 
   pool: 10
@@ -9,8 +9,8 @@ development: &defaults
 
 test:
   <<: *defaults
-  database: PLTexchange
+  database: mexchange_test
 
 production:
   <<: *defaults
-  database: PLTexchange
+  database: mexchange_production

@@ -1,8 +1,48 @@
-- id: btccny
+- id: btcaud
   code: 3
   #name: BTC/CNY      # default name
   base_unit: btc
-  quote_unit: cny
+  quote_unit: aud
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: cny, fixed: 2}
+  ask: {fee: 0, currency: btc, fixed: 4}
+  sort_order: 1
+  #visible: false     # default to true
+- id: ethaud
+  code: 3
+  #name: BTC/CNY      # default name
+  base_unit: btc
+  quote_unit: aud
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: cny, fixed: 2}
+  ask: {fee: 0, currency: btc, fixed: 4}
+  sort_order: 1
+  #visible: false     # default to true
+- id: bchaud
+  code: 3
+  #name: BTC/CNY      # default name
+  base_unit: btc
+  quote_unit: aud
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: cny, fixed: 2}
+  ask: {fee: 0, currency: btc, fixed: 4}
+  sort_order: 1
+  #visible: false     # default to true
+- id: ltcaud
+  code: 3
+  #name: BTC/CNY      # default name
+  base_unit: btc
+  quote_unit: aud
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: cny, fixed: 2}
+  ask: {fee: 0, currency: btc, fixed: 4}
+  sort_order: 1
+  #visible: false     # default to true
+- id: xrpaud
+  code: 3
+  #name: BTC/CNY      # default name
+  base_unit: btc
+  quote_unit: aud
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: cny, fixed: 2}
   ask: {fee: 0, currency: btc, fixed: 4}
